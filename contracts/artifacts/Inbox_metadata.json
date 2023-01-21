@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "initialMessage",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Inbox.sol": "Inbox"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Inbox.sol": {
+			"keccak256": "0x76a2c75fef6cab720cff1780b9a2c608793e29cab93f05f5b793883a5f2e2efa",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c742a91ca59d1993ed3687130fa9dee6cf724c7d46d2b58a1d0441763757e16d",
+				"dweb:/ipfs/QmfXGYpuydvSwEYPgJMYoK4VbB1fbHCMKktyDbpUMgUit9"
+			]
+		}
+	},
+	"version": 1
+}
